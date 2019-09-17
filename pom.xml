@@ -27,6 +27,12 @@
       <name>Test Project Site</name>
       <url>172-31-31-78:/home/ec2-user/dockerfile</url>
     </site>
+    <repositories>
+        <repository>
+            <id>java-net-repo</id>
+            <url>172-31-31-78:/home/ec2-user/dockerfile</url>
+        </repository>     
+     </repositories>
   </distributionManagement>
 
   <build>
