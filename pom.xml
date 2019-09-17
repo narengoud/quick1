@@ -21,7 +21,12 @@
     <module>webapp</module>
   </modules>
 
-  
+  <repositories>
+    <repository>
+      <id>my-internal-site</id>
+      <url>172-31-31-78:/home/ec2-user/maven</url>
+    </repository>
+  </repositories>
 
   <build>
     <plugins>
