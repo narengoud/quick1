@@ -21,14 +21,7 @@
     <module>webapp</module>
   </modules>
 
-  <distributionManagement>
-    <repositories>
-        <repository>
-            <id>java-net-repo</id>
-            <url>172-31-31-78:/home/ec2-user/dockerfile</url>
-        </repository>     
-     </repositories>
-  </distributionManagement>
+  
 
   <build>
     <plugins>
